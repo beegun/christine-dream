@@ -1,0 +1,161 @@
+
+body {
+  background-color: #9a9780;
+}
+
+header {
+  background-color: #fff;
+  /*position:fixed;*/
+  width: 100%;
+  margin: auto;
+  height: 150px;
+  text-align: center;
+  top: 0px;
+  left: 0px;
+}
+
+header a {
+  color: black;
+  font-size: 9px;
+}
+
+.navigation a {
+  font-size: 15px;
+  padding: 0 10px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 479px) {
+  .navigation a {
+    padding: 0 40px;
+  }
+}
+
+.logo { 
+  position: relative;
+  width: 50%;
+  border: none;
+  top: 20px;
+  margin: auto;
+  }
+
+.purple {
+	color: purple;
+	font-weight: 600;
+}
+
+.main-body {
+  color: #6f625a;
+  margin: 30px auto;
+}
+
+figcaption {
+  color: #666666;
+  padding: 100 50 50 50;
+  text-transform: uppercase;
+  font-size: 17px;
+    } /* unvisited link */
+
+
+img: {padding: 20px;}
+
+a.new:link  {color:#FF0000; text-decoration: none;} /* unvisited link */
+a:link  {color:navy; text-decoration: none;} /* unvisited link */
+a:visited {color:#00FF00; text-decoration: none;} /* visited link */
+a:hover {color:#FF00FF;} /* mouse over link */
+a:active  {color:#0000FF;} 
+
+#box1 {
+  height: 200px;
+  width: 400px;
+  margin: auto;
+
+}
+
+#box1 p {
+  float: left;
+  margin: 35px;
+}
+
+#box2 {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.block-element-image{
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.block-element figure h6{
+  padding: 100px;
+}
+ 
+
+footer  { 
+  background-color: #9a9780;
+  font-size: 15px;
+  text-align: left ;
+  height: 250px;
+  margin: auto;
+  bottom:0;
+  text-align: center;
+  width:100%;
+}
+
+.footer-content li{ 
+  display: inline;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.footer-content li:after{
+  content: " / ";
+  color: #ffffff;
+}
+
+.footer-content li:last-child:after{
+  content: none;
+}
+
+.footer-content li a{ color: #FFFFFF; }
+
+.footer-content .left{
+  text-align: center;
+  width: 100%;
+  top: 0px;
+}
+
+@media only screen and (min-width: 479px) {
+  .footer-content .left{
+    text-align: left;
+    width: 50%;
+  }
+}
+
+.footer-content .last{
+  text-align: center;
+  width: 100%;
+  
+}
+
+@media only screen and (min-width: 479px) {
+  .footer-content .last{
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+}
+
+.footer-content p, .footer-content ul, .footer-content .row{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.four columns last a {
+
+}
+	
